@@ -2,6 +2,7 @@
 优雅代码摘录...
 
 ## 1 现代的模块机制 【From: YOU DONT KNOW JS(上)】
+```javascript
 var MyModules = (function Manager() {
   var modules = {};
 
@@ -21,4 +22,5 @@ var MyModules = (function Manager() {
     get: get
   }
 })();
+```
 
